@@ -1,0 +1,148 @@
+body {
+    background-image: url(/Files/bg-no-logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 35vh;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.logo p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3vh;
+    margin: 0;
+}
+
+.logo span {
+    font-size: 2vh;
+}
+
+nav.nav-bar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.nav-bar ul li a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.contact-button {
+    color: #ffffff !important;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 8px 16px;
+
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.company_logo {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.company_logo span {
+    font-weight: 800;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4vh;
+    margin: 0;
+}
+
+p {
+    font-size: 2vh;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+.container-middle {
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+
+.how-it-works {
+    margin-left: 15vh;
+    width: 25%;
+}
+
+.input-fields {
+    margin-bottom:10px;
+    margin-top: auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70vh;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    height: 100%;
+    width: 100%;
+    margin: 20px 0 0 0;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box; /* Added */
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+    background-color: #e0e0e0;
+}
+
+/* button styling */
+
+.form-button input {   
+    height: 30px;
+    width: 30%;
+    font-size: 1.3vh;
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    border-radius: 2px;
+    border-color: #000;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+  
+.form-button input:hover {
+    background-color: #333;
+}
+
+/* button orientation */
+
+.form-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
