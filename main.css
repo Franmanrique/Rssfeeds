@@ -1,26 +1,51 @@
 body {
-    background-image: url(/Files/bg-no-logo.png);
+    margin: 0;
+    background-image: url("./files/screen.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center 35vh;
+    background-color: white;
 }
+
+.logo h1 {
+    color: white;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    padding: 20px 7rem;
+    color: #A6A6A6;
+    background-color: black;
 }
 
-.logo p {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 3vh;
-    margin: 0;
+/* nav bar animations  */
+.text-shadow-drop-center:hover {
+    -webkit-animation: text-shadow-drop-center 0.6s both;
+    animation: text-shadow-drop-center 0.6s both;
+  }
+  
+  @-webkit-keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+  }
+  
+  @keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
 }
 
-.logo span {
-    font-size: 2vh;
+.nav-bar li:hover {
+    color: white;
 }
 
 nav.nav-bar ul {
@@ -31,23 +56,22 @@ nav.nav-bar ul {
 }
 
 nav.nav-bar ul li a {
-    margin-left: 50px;
     text-decoration: none;
     color: inherit;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 
-
 .contact-button {
-    color: #ffffff !important;
+    color: #A6A6A6 !important;
     background-color: #000000;
     border-radius: 20px;
-    padding: 8px 16px;
-
 }
 
 .ml-auto {
-    margin-left: auto;
+    display: grid;
+    gap: 4rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .company_logo {
@@ -60,14 +84,14 @@ nav.nav-bar ul li a {
 }
 
 h1 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 4vh;
     margin: 0;
 }
 
 p {
     font-size: 2vh;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -76,7 +100,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-   
+    color: black;
 }
 
 .how-it-works {
@@ -94,7 +118,7 @@ p {
     margin-left: 70vh;
     padding: 10px;
     font-size: 0.8rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 
@@ -146,3 +170,21 @@ select:hover {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.container-footer {
+    background-color: #000;
+    height: 25vh;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10rem;
+    color: #A6A6A6;
+    font-size: 0.8rem;
+}
+
+.container-footer p {
+    font-size: 0.6rem;
+}
+
+.container-footer h3 {
+    margin: 0
+}
+

@@ -13,17 +13,13 @@
 <body>
     <header>
         <div class="logo">
-            <div>
-                <p>HTML<span>creator</span></p>
-            </div>
-            <div class="company_logo">By <span>OOH</span>Solutions</div>
+            <h1> <span>OOH</span>Solutions</h1>
         </div>
-
         <nav class="nav-bar">
             <ul class="ml-auto">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#" class="contact-button">Contact</a></li>
+                <li class="text-shadow-drop-center"><a href="#">About</a></li>
+                <li class="text-shadow-drop-center"> <a href="#">Services</a></li>
+                <li class="text-shadow-drop-center"> <a href="#" class="contact-button">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -42,14 +38,10 @@
                     <label for="height">Height:</label>
                     <input type="text" id="height" name="height"><br><br>
 
-                    
                     <label for="rss-url">RSS URL:</label>
                     <input type="text" id="rss-url" name="rss-url"><br><br>
                     <label for="template">Template</label>
-                    <select id="template" name="template">
-                        <option value="template1">Template 1</option>
-                        <option value="template2">Template 2</option>
-                        <option value="template3">Template 3</option>
+                    <select class="dropdown" id="template" name="template">
                     </select>
                     <div class="form-button">
                         <input type="submit" value="Download"><input type="submit" value="Preview">
@@ -59,6 +51,15 @@
         </div>
         </div>
     </section>
+    <footer>
+        <div class="container-footer">
+            <div .footer-text-left>
+                <h3>OOHSolutions</h3>
+                <p>We create solutions for DOOH</p>
+            </div>
+        </div>
+    </footer>
+    <Script src="/index.js"></Script>
 </body>
 
 </html>
