@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-:root {
-    font-family: "Poppins";
+/* contains background */
+
+body {
+    margin: 0;
+    background-image: url("./files/screen.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 35vh;
+    background-color: white;
 }
+
